@@ -1,0 +1,45 @@
+.job-detail {
+    height:100vh;
+    background-color:lightyellow;
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .job-title{
+    font-size:24px;
+    font-family:"Roboto";
+    font-weight:bold;
+    color:blueviolet;
+
+  }
+
+  .job-description{
+    font-size:18px;
+    font-family:"Bree-Serif";
+    font-weight:bold;
+  }
+  
+  .job-detail button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .job-detail button:hover {
+    background-color: #0056b3;
+  }
+  
+  .job-detail h2 {
+    margin-top: 0;
+  }
+
+  .back-button{
+    margin-top:20px;
+  }
+  

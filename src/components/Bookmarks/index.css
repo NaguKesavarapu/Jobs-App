@@ -1,0 +1,47 @@
+.bookmarks-container {
+    padding: 40px;
+    background-color:bisque;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  
+  .bookmark-card{
+    background-color:burlywood;
+    height:150px;
+    width:800px;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-between;
+    box-shadow:0 20 0 10;
+  }
+
+  .bookmark-title{
+    font-family:"Roboto";
+    font-size:24px;
+    font-weight:bold;
+  }
+
+  .bookmark-button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:20px;
+  }
+
+  .bookmark-message{
+    font-family:"Roboto";
+    font-size:24px;
+    font-weight:bold;
+    margin-top:100px;
+  }
+  

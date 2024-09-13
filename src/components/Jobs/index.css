@@ -1,0 +1,60 @@
+.jobs-container {
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:antiquewhite;
+  }
+  
+  .job-card {
+    background-color:burlywood;
+    height:150px;
+    width:800px;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-between;
+    box-shadow:0 20 0 10;
+  }
+
+  .job-card-title{
+    font-family:"Roboto";
+    font-size:24px;
+    font-weight:bold;
+  }
+  
+  .job-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .job-card button:hover {
+    background-color: #0056b3;
+  }
+
+  .load-more-btn{
+    margin-top: 20px; /* Add space between the button and job cards */
+    margin-bottom: 20px; /* Some margin below for spacing */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .loading{
+    font-family:24px;
+    font-family:"Roboto";
+    font-weight:bold;
+  }
+  

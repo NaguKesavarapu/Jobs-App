@@ -1,0 +1,29 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+  overflow: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color:lightgray;
+  padding: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #007bff;
+  
+  font-size:24px;
+  font-weight:bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
